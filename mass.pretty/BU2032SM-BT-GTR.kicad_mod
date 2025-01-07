@@ -1,42 +1,252 @@
-(footprint "BU2032SM-BT-GTR" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at -11.5 -4 90 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
-    (tstamp c00259ba-54da-43a4-a8a8-02fc2c032218)
-  )
-  (fp_text value "BU2032SM-BT-GTR" (at 0 12.5 unlocked) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6cdb56a6-9a1d-4f12-98e6-d481b153a76f)
-  )
-  (fp_text user "+" (at -12 5 unlocked) (layer "F.SilkS")
-    (effects (font (size 2 2) (thickness 0.3)))
-    (tstamp ff57a5c0-3931-4e31-9246-35021df602e8)
-  )
-  (fp_line (start -10.639999 -3.5) (end -14.3 -3.5) (layer "F.SilkS") (width 0.254) (tstamp 01af6b70-f8bf-42ad-88a9-c1eeb1effb5d))
-  (fp_line (start 14.3 3.5) (end 10.639999 3.5) (layer "F.SilkS") (width 0.254) (tstamp 2efadd34-f72c-4120-b0a9-ce747123775c))
-  (fp_line (start -7.839812 -7.999808) (end 7.85 -8) (layer "F.SilkS") (width 0.254) (tstamp 3b8d4a06-57e3-4c95-8fae-c6396bd2f9e9))
-  (fp_line (start 10.643932 -3.511297) (end 14.3 -3.5) (layer "F.SilkS") (width 0.254) (tstamp b271d822-a9d9-4f2e-be98-5a742391c6ab))
-  (fp_line (start -14.3 3.5) (end -10.640254 3.500083) (layer "F.SilkS") (width 0.254) (tstamp bf66c819-7d45-4b2c-b6fe-1abf0854b159))
-  (fp_line (start -7.839999 7.999999) (end 7.839812 7.999808) (layer "F.SilkS") (width 0.254) (tstamp e9e49c3f-f366-4427-a8b5-04302258de6f))
-  (fp_line (start 14.3 -3.5) (end 14.3 3.5) (layer "F.SilkS") (width 0.254) (tstamp eed6d78b-3662-4e22-b88b-a4ee76ed4a7e))
-  (fp_line (start -14.3 -3.5) (end -14.3 3.5) (layer "F.SilkS") (width 0.254) (tstamp f7b62eb0-94fe-4f29-8c4c-73135ff7ac95))
-  (fp_arc (start -7.839999 7.999999) (mid -9.510113 5.918051) (end -10.640254 3.500083) (layer "F.SilkS") (width 0.254) (tstamp 2e2fa4f0-041f-4189-9526-130c914fb44c))
-  (fp_arc (start -10.639999 -3.5) (mid -9.509885 -5.91791) (end -7.839812 -7.999808) (layer "F.SilkS") (width 0.254) (tstamp 46e0a1ba-cb10-4570-9831-1b863e6e6da1))
-  (fp_arc (start 7.85 -8) (mid 9.515435 -5.922753) (end 10.643932 -3.511297) (layer "F.SilkS") (width 0.254) (tstamp c56eba1f-8c2d-487a-bfa5-e92f2670a128))
-  (fp_arc (start 10.639999 3.5) (mid 9.509885 5.91791) (end 7.839812 7.999808) (layer "F.SilkS") (width 0.254) (tstamp d31c59bb-8c91-4b29-bba3-c07d5c55436b))
-  (fp_circle (center 0 0) (end 0.005094 -10) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 11f3370f-f8a7-4b1e-9b60-bd4e42e03b0c))
-  (pad "1" smd roundrect (at -14.65 0) (size 3.2 4.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 053b3dff-c41c-4889-a660-60a0899f17d3))
-  (pad "2" smd roundrect (at 14.65 0) (size 3.2 4.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 8d5fb72b-8d34-4dee-9143-8083093ca327))
-  (model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1058_1x2032.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/Battery_CR1225.wrl"
-    (offset (xyz 0 0 1))
-    (scale (xyz 1.55 1.55 1.6))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BU2032SM-BT-GTR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -11.5 -4 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c00259ba-54da-43a4-a8a8-02fc2c032218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "BU2032SM-BT-GTR"
+		(at 0 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cdb56a6-9a1d-4f12-98e6-d481b153a76f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ae6e218-b742-4b13-a73e-8c0127bf572c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c1c5ad7-50e0-4440-aa6f-59fa2ac3d8fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "066f9d21-9beb-43fa-bd05-c6a1719740f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -14.3 -3.5)
+		(end -14.3 3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7b62eb0-94fe-4f29-8c4c-73135ff7ac95")
+	)
+	(fp_line
+		(start -14.3 3.5)
+		(end -10.640254 3.500083)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf66c819-7d45-4b2c-b6fe-1abf0854b159")
+	)
+	(fp_line
+		(start -10.639999 -3.5)
+		(end -14.3 -3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01af6b70-f8bf-42ad-88a9-c1eeb1effb5d")
+	)
+	(fp_line
+		(start -7.839999 7.999999)
+		(end 7.839812 7.999808)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9e49c3f-f366-4427-a8b5-04302258de6f")
+	)
+	(fp_line
+		(start -7.839812 -7.999808)
+		(end 7.85 -8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b8d4a06-57e3-4c95-8fae-c6396bd2f9e9")
+	)
+	(fp_line
+		(start 10.643932 -3.511297)
+		(end 14.3 -3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b271d822-a9d9-4f2e-be98-5a742391c6ab")
+	)
+	(fp_line
+		(start 14.3 -3.5)
+		(end 14.3 3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eed6d78b-3662-4e22-b88b-a4ee76ed4a7e")
+	)
+	(fp_line
+		(start 14.3 3.5)
+		(end 10.639999 3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2efadd34-f72c-4120-b0a9-ce747123775c")
+	)
+	(fp_arc
+		(start -10.639999 -3.5)
+		(mid -9.509885 -5.91791)
+		(end -7.839812 -7.999808)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46e0a1ba-cb10-4570-9831-1b863e6e6da1")
+	)
+	(fp_arc
+		(start -7.839999 7.999999)
+		(mid -9.510113 5.918051)
+		(end -10.640254 3.500083)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e2fa4f0-041f-4189-9526-130c914fb44c")
+	)
+	(fp_arc
+		(start 7.85 -8)
+		(mid 9.515435 -5.922753)
+		(end 10.643932 -3.511297)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c56eba1f-8c2d-487a-bfa5-e92f2670a128")
+	)
+	(fp_arc
+		(start 10.639999 3.5)
+		(mid 9.509885 5.91791)
+		(end 7.839812 7.999808)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d31c59bb-8c91-4b29-bba3-c07d5c55436b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.005094 -10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "11f3370f-f8a7-4b1e-9b60-bd4e42e03b0c")
+	)
+	(fp_text user "+"
+		(at -12 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ff57a5c0-3931-4e31-9246-35021df602e8")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -14.65 0)
+		(size 3.2 4.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "053b3dff-c41c-4889-a660-60a0899f17d3")
+	)
+	(pad "2" smd roundrect
+		(at 14.65 0)
+		(size 3.2 4.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8d5fb72b-8d34-4dee-9143-8083093ca327")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1058_1x2032.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/Battery_CR1225.wrl"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1.55 1.55 1.6)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

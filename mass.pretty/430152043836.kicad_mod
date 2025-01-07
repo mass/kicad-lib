@@ -1,23 +1,118 @@
-(footprint "430152043836" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d3aa6a53-fc98-4467-b36c-6bf49ac06abd)
-  )
-  (fp_text value "430152043836" (at 0 9 unlocked) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0b120950-d6d6-40b1-b0ea-6cdee85781a0)
-  )
-  (fp_rect (start 3.1 3.1) (end -3.1 -3.1) (layer "F.SilkS") (width 0.254) (fill none) (tstamp 0c2fc607-180e-4289-a89d-8674be1e28a9))
-  (pad "1" smd roundrect (at 3.975 -2.25) (size 1.55 1.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp fcef68da-ffdf-4b6f-8127-dd466447ddf2))
-  (pad "1" smd roundrect (at -3.975 -2.25) (size 1.55 1.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp fdb5261f-efb2-451d-9fd1-20fafba64bcb))
-  (pad "2" smd roundrect (at 3.975 2.25) (size 1.55 1.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 8737f66e-3156-4394-b604-f630cbb07d7a))
-  (pad "2" smd roundrect (at -3.975 2.25) (size 1.55 1.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp b2dbf3fe-ce42-4fbd-b2bd-896fc560f5a9))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 0.7))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "430152043836"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3aa6a53-fc98-4467-b36c-6bf49ac06abd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "430152043836"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b120950-d6d6-40b1-b0ea-6cdee85781a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f17ec09-adc0-4aa1-b9ee-76e5ae379f7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99ee7c15-2c3e-47ab-a3bd-ecabfd344266")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d42586c6-cbb4-40c9-927b-58af2e622a0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 3.1 3.1)
+		(end -3.1 -3.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0c2fc607-180e-4289-a89d-8674be1e28a9")
+	)
+	(pad "1" smd roundrect
+		(at -3.975 -2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fdb5261f-efb2-451d-9fd1-20fafba64bcb")
+	)
+	(pad "1" smd roundrect
+		(at 3.975 -2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fcef68da-ffdf-4b6f-8127-dd466447ddf2")
+	)
+	(pad "2" smd roundrect
+		(at -3.975 2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b2dbf3fe-ce42-4fbd-b2bd-896fc560f5a9")
+	)
+	(pad "2" smd roundrect
+		(at 3.975 2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8737f66e-3156-4394-b604-f630cbb07d7a")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 0.7)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

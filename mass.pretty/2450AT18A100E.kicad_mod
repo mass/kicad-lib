@@ -1,22 +1,115 @@
-(footprint "2450AT18A100E" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a26d34e8-50fa-496b-9e2e-ec0d29a22181)
-  )
-  (fp_text value "2450AT18A100E" (at 0 2.25 unlocked) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 400cd2f5-07c5-4d5f-a1e0-9257e15a3db1)
-  )
-  (fp_rect (start -1.6 -0.8) (end 1.6 0.8) (layer "F.SilkS") (width 0.254) (fill none) (tstamp 465a7edb-335b-42ef-b27a-78b0aa7db43a))
-  (fp_rect (start -1.25 0.25) (end -0.5 -0.25) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp f03d3fe8-2da8-4899-a2ae-51741949eec0))
-  (pad "1" smd roundrect (at -1.7 0) (size 0.8 1.6) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 4ec9aa1b-7afc-4d55-b827-d3cdf86399d0))
-  (pad "2" smd roundrect (at 1.7 0) (size 0.8 1.6) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 386ed7a3-dcab-442c-9778-cbe3462e5f99))
-  (model "${KICAD6_3DMODEL_DIR}/RF_Antenna.3dshapes/Johanson_2450AT18x100.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "2450AT18A100E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a26d34e8-50fa-496b-9e2e-ec0d29a22181")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2450AT18A100E"
+		(at 0 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "400cd2f5-07c5-4d5f-a1e0-9257e15a3db1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11dd342c-b979-4472-8ae8-7697bffebb0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85946eb2-549d-495f-97c1-da81ff7f90c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4da4e710-144c-4163-aed5-a5125d2308a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "465a7edb-335b-42ef-b27a-78b0aa7db43a")
+	)
+	(fp_rect
+		(start -1.25 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f03d3fe8-2da8-4899-a2ae-51741949eec0")
+	)
+	(pad "1" smd roundrect
+		(at -1.7 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4ec9aa1b-7afc-4d55-b827-d3cdf86399d0")
+	)
+	(pad "2" smd roundrect
+		(at 1.7 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "386ed7a3-dcab-442c-9778-cbe3462e5f99")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/RF_Antenna.3dshapes/Johanson_2450AT18x100.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

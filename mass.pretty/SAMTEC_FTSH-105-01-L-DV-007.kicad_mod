@@ -1,33 +1,165 @@
-(footprint "SAMTEC_FTSH-105-01-L-DV-007" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 63C478DD)
-  (attr through_hole)
-  (fp_text reference "REF**" (at -4 0 90) (layer "F.SilkS")
-    (effects (font (size 0.9144 0.9144) (thickness 0.1524)))
-    (tstamp b3d8f6e9-481b-43ef-8da1-aff8d1373ae2)
-  )
-  (fp_text value "SAMTEC_FTSH-105-01-L-DV-007" (at 12.97 5.295) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f4318e6e-776f-48f0-9a53-42a2fd31508d)
-  )
-  (fp_text user "DBG/PROG" (at 0 5 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.9144 0.9144) (thickness 0.1524)))
-    (tstamp 827cac5e-d1cf-45de-b3ee-2b76a7060ce6)
-  )
-  (fp_rect (start -3.175 2.54) (end 3.175 -2.54) (layer "F.SilkS") (width 0.254) (fill none) (tstamp 6398a2e8-c726-4f44-851d-db9c5c3bafbc))
-  (fp_rect (start 5.334 2.54) (end -5.334 -2.54) (layer "F.SilkS") (width 0.254) (fill none) (tstamp b40c7046-d077-4c17-8e35-51c6769e13fd))
-  (pad "1" smd rect (at -2.54 2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 34f6fa43-a127-4299-9a27-2706b741a7f7))
-  (pad "2" smd rect (at -2.54 -2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eedbe4b8-53f9-4b6a-bddb-3522a602163a))
-  (pad "3" smd rect (at -1.27 2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp df0e13d7-9d6c-472e-839d-afb7756140db))
-  (pad "4" smd rect (at -1.27 -2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f14838fb-e1fb-4f37-84e7-45732bd710c6))
-  (pad "5" smd rect (at 0 2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7a52bfd0-ca07-4530-811e-5197d7e01995))
-  (pad "6" smd rect (at 0 -2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 77386db7-d414-4840-8223-e94a033f8075))
-  (pad "8" smd rect (at 1.27 -2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 66d87b0f-5339-4219-8d08-79089273113a))
-  (pad "9" smd rect (at 2.54 2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2d94c344-cd7c-44de-9b9f-54025b6a5191))
-  (pad "10" smd rect (at 2.54 -2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 62e6a1bb-5859-444c-9699-ed7985cc4c8b))
-  (model "${KIPRJMOD}/../vendor/kicad-lib/3d/FTSH-105-01-L-DV-007.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "SAMTEC_FTSH-105-01-L-DV-007"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 0 90)
+		(layer "F.SilkS")
+		(uuid "b3d8f6e9-481b-43ef-8da1-aff8d1373ae2")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "SAMTEC_FTSH-105-01-L-DV-007"
+		(at 12.97 5.295 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4318e6e-776f-48f0-9a53-42a2fd31508d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf045431-fe8d-4ccb-b4b0-5b3a92a6d764")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99efb75d-5d50-48ed-9549-a28b7e32f47b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31ddfaf9-c82e-4441-b88c-d0febe952dfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.175 2.54)
+		(end 3.175 -2.54)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6398a2e8-c726-4f44-851d-db9c5c3bafbc")
+	)
+	(fp_rect
+		(start 5.334 2.54)
+		(end -5.334 -2.54)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b40c7046-d077-4c17-8e35-51c6769e13fd")
+	)
+	(fp_text user "DBG/PROG"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "827cac5e-d1cf-45de-b3ee-2b76a7060ce6")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "34f6fa43-a127-4299-9a27-2706b741a7f7")
+	)
+	(pad "2" smd rect
+		(at -2.54 -2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eedbe4b8-53f9-4b6a-bddb-3522a602163a")
+	)
+	(pad "3" smd rect
+		(at -1.27 2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "df0e13d7-9d6c-472e-839d-afb7756140db")
+	)
+	(pad "4" smd rect
+		(at -1.27 -2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f14838fb-e1fb-4f37-84e7-45732bd710c6")
+	)
+	(pad "5" smd rect
+		(at 0 2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7a52bfd0-ca07-4530-811e-5197d7e01995")
+	)
+	(pad "6" smd rect
+		(at 0 -2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "77386db7-d414-4840-8223-e94a033f8075")
+	)
+	(pad "8" smd rect
+		(at 1.27 -2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66d87b0f-5339-4219-8d08-79089273113a")
+	)
+	(pad "9" smd rect
+		(at 2.54 2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2d94c344-cd7c-44de-9b9f-54025b6a5191")
+	)
+	(pad "10" smd rect
+		(at 2.54 -2.035)
+		(size 0.74 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "62e6a1bb-5859-444c-9699-ed7985cc4c8b")
+	)
+	(model "${KIPRJMOD}/../vendor/kicad-lib/3d/FTSH-105-01-L-DV-007.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
